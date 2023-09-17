@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/kata
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        hbm2ddl:
+          auto: create
+  thymeleaf:
+    encoding: UTF-8
+    mode: HTML5
+    check-template-location: true
+    check-template: true
+  security:
+    filter:
+      dispatcher-types:
+        - request
+        - forward
+        - error
+        - include
