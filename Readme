@@ -1,0 +1,6 @@
+Admin:
+    Login: admin@mail.ru
+    Password: admin
+User:
+    Login: user@mail.ru
+    Password: user
